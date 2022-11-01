@@ -14,17 +14,43 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: 74
+    x: 0
     y: 45
-    width: 1206
+    width: 1280
     height: 698
   m_ShowMode: 4
-  m_Title: 
+  m_Title: Test Runner
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
-  m_Maximized: 0
+  m_Maximized: 1
 --- !u!114 &2
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: SceneHierarchyWindow
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 211
+    height: 648
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 14}
+  m_Panes:
+  - {fileID: 14}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -37,44 +63,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
+  - {fileID: 2}
   - {fileID: 9}
-  - {fileID: 3}
+  - {fileID: 4}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 30
-    width: 1206
+    width: 1280
     height: 648
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 30
---- !u!114 &3
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
-    x: 921
-    y: 0
-    width: 285
-    height: 648
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 13}
-  m_Panes:
-  - {fileID: 13}
-  m_Selected: 0
-  m_LastSelected: 0
+  controlID: 40
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -90,15 +91,15 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 0
+    x: 976
     y: 0
-    width: 228
-    height: 384
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 14}
+    width: 304
+    height: 648
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 13}
   m_Panes:
-  - {fileID: 14}
+  - {fileID: 13}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &5
@@ -117,11 +118,11 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 384
-    width: 921
-    height: 264
-  m_MinSize: {x: 231, y: 271}
-  m_MaxSize: {x: 10001, y: 10021}
+    y: 430
+    width: 765
+    height: 218
+  m_MinSize: {x: 232, y: 271}
+  m_MaxSize: {x: 10002, y: 10021}
   m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 12}
@@ -142,13 +143,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Children:
   - {fileID: 7}
-  - {fileID: 2}
+  - {fileID: 3}
   - {fileID: 8}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1206
+    width: 1280
     height: 698
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -173,7 +174,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1206
+    width: 1280
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -195,7 +196,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 678
-    width: 1206
+    width: 1280
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -216,14 +217,14 @@ MonoBehaviour:
   - {fileID: 5}
   m_Position:
     serializedVersion: 2
-    x: 0
+    x: 211
     y: 0
-    width: 921
+    width: 765
     height: 648
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 16192, y: 16192}
+  m_MinSize: {x: 100, y: 200}
+  m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 31
+  controlID: 41
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -233,22 +234,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
-  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: TestRunnerWindow
   m_EditorClassIdentifier: 
-  m_Children:
-  - {fileID: 4}
-  - {fileID: 11}
+  m_Children: []
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 921
-    height: 384
-  m_MinSize: {x: 200, y: 100}
-  m_MaxSize: {x: 16192, y: 8096}
-  vertical: 0
-  controlID: 32
+    width: 765
+    height: 430
+  m_MinSize: {x: 102, y: 121}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 11}
+  m_Panes:
+  - {fileID: 15}
+  - {fileID: 16}
+  - {fileID: 11}
+  m_Selected: 2
+  m_LastSelected: 0
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -257,25 +261,1115 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 13401, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Test Runner
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  m_Pos:
     serializedVersion: 2
-    x: 228
-    y: 0
-    width: 693
-    height: 384
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 15}
-  m_Panes:
-  - {fileID: 15}
-  - {fileID: 16}
-  m_Selected: 0
-  m_LastSelected: 1
+    x: 211
+    y: 75
+    width: 763
+    height: 409
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  m_Spl:
+    ID: 115
+    splitterInitialOffset: 293
+    currentActiveSplitter: -1
+    realSizes:
+    - 222
+    - 117
+    relativeSizes:
+    - 0.65486723
+    - 0.34513277
+    minSizes:
+    - 32
+    - 32
+    maxSizes:
+    - 0
+    - 0
+    lastTotalSize: 339
+    splitSize: 6
+    xOffset: 0
+    m_Version: 1
+    oldRealSizes: 
+    oldMinSizes: 
+    oldMaxSizes: 
+    oldSplitSize: 0
+  m_TestTypeToolbarIndex: 1
+  m_PlayModeTestListGUI:
+    m_Window: {fileID: 11}
+    m_NewResultList:
+    - id: 1024
+      uniqueId: '[JamCityTest][suite]'
+      name: JamCityTest
+      fullName: JamCityTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 
+      parentUniqueId: 
+    m_ResultText: 
+    m_ResultStacktrace: 
+    m_TestListState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: e106ab0bffffff7f
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 0}
+      m_SearchString: 
+    m_TestRunnerUIFilter:
+      PassedHidden: 0
+      FailedHidden: 0
+      NotRunHidden: 0
+      m_SearchString: 
+      selectedCategoryMask: 0
+      availableCategories:
+      - Uncategorized
+    m_SelectedOption: 0
+  m_EditModeTestListGUI:
+    m_Window: {fileID: 11}
+    m_NewResultList:
+    - id: 1000
+      uniqueId: '[JamCityTest][suite]'
+      name: JamCityTest
+      fullName: JamCityTest
+      resultStatus: 1
+      duration: 0.3578015
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 
+      parentUniqueId: 
+    - id: 1004
+      uniqueId: '[EditModeTest][/Volumes/Apple HDD/Projects/Github/JamCityTechTest/Library/ScriptAssemblies/EditModeTest.dll][suite]'
+      name: EditModeTest.dll
+      fullName: /Volumes/Apple HDD/Projects/Github/JamCityTechTest/Library/ScriptAssemblies/EditModeTest.dll
+      resultStatus: 1
+      duration: 0.3182305
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1000
+      parentUniqueId: '[JamCityTest][suite]'
+    - id: 1001
+      uniqueId: EditModeTest.dll/[EditModeTest][EmployeeTest][suite]
+      name: EmployeeTest
+      fullName: EmployeeTest
+      resultStatus: 1
+      duration: 0.2730401
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1004
+      parentUniqueId: '[EditModeTest][/Volumes/Apple HDD/Projects/Github/JamCityTechTest/Library/ScriptAssemblies/EditModeTest.dll][suite]'
+    - id: 1027
+      uniqueId: EditModeTest.dll/EmployeeTest/[EditModeTest][EmployeeTest.Filter][suite]
+      name: Filter
+      fullName: EmployeeTest.Filter
+      resultStatus: 1
+      duration: 0.1381635
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1001
+      parentUniqueId: EditModeTest.dll/[EditModeTest][EmployeeTest][suite]
+    - id: 1014
+      uniqueId: EditModeTest.dll/EmployeeTest/Filter/[EditModeTest][EmployeeTest.Filter(CEO,null)]
+      name: Filter(CEO,null)
+      fullName: EmployeeTest.Filter(CEO,null)
+      resultStatus: 1
+      duration: 0.0763072
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1027
+      parentUniqueId: EditModeTest.dll/EmployeeTest/[EditModeTest][EmployeeTest.Filter][suite]
+    - id: 1015
+      uniqueId: EditModeTest.dll/EmployeeTest/Filter/[EditModeTest][EmployeeTest.Filter(HR,Junior)]
+      name: Filter(HR,Junior)
+      fullName: EmployeeTest.Filter(HR,Junior)
+      resultStatus: 1
+      duration: 0.0009829
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1027
+      parentUniqueId: EditModeTest.dll/EmployeeTest/[EditModeTest][EmployeeTest.Filter][suite]
+    - id: 1016
+      uniqueId: EditModeTest.dll/EmployeeTest/Filter/[EditModeTest][EmployeeTest.Filter(HR,SemiSenior)]
+      name: Filter(HR,SemiSenior)
+      fullName: EmployeeTest.Filter(HR,SemiSenior)
+      resultStatus: 1
+      duration: 0.0005759
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1027
+      parentUniqueId: EditModeTest.dll/EmployeeTest/[EditModeTest][EmployeeTest.Filter][suite]
+    - id: 1017
+      uniqueId: EditModeTest.dll/EmployeeTest/Filter/[EditModeTest][EmployeeTest.Filter(HR,Senior)]
+      name: Filter(HR,Senior)
+      fullName: EmployeeTest.Filter(HR,Senior)
+      resultStatus: 1
+      duration: 0.0005312
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1027
+      parentUniqueId: EditModeTest.dll/EmployeeTest/[EditModeTest][EmployeeTest.Filter][suite]
+    - id: 1018
+      uniqueId: EditModeTest.dll/EmployeeTest/Filter/[EditModeTest][EmployeeTest.Filter(Engineering,Junior)]
+      name: Filter(Engineering,Junior)
+      fullName: EmployeeTest.Filter(Engineering,Junior)
+      resultStatus: 1
+      duration: 0.0005501
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1027
+      parentUniqueId: EditModeTest.dll/EmployeeTest/[EditModeTest][EmployeeTest.Filter][suite]
+    - id: 1019
+      uniqueId: EditModeTest.dll/EmployeeTest/Filter/[EditModeTest][EmployeeTest.Filter(Engineering,SemiSenior)]
+      name: Filter(Engineering,SemiSenior)
+      fullName: EmployeeTest.Filter(Engineering,SemiSenior)
+      resultStatus: 1
+      duration: 0.0005327
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1027
+      parentUniqueId: EditModeTest.dll/EmployeeTest/[EditModeTest][EmployeeTest.Filter][suite]
+    - id: 1020
+      uniqueId: EditModeTest.dll/EmployeeTest/Filter/[EditModeTest][EmployeeTest.Filter(Engineering,Senior)]
+      name: Filter(Engineering,Senior)
+      fullName: EmployeeTest.Filter(Engineering,Senior)
+      resultStatus: 1
+      duration: 0.0007544
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1027
+      parentUniqueId: EditModeTest.dll/EmployeeTest/[EditModeTest][EmployeeTest.Filter][suite]
+    - id: 1021
+      uniqueId: EditModeTest.dll/EmployeeTest/Filter/[EditModeTest][EmployeeTest.Filter(Artist,SemiSenior)]
+      name: Filter(Artist,SemiSenior)
+      fullName: EmployeeTest.Filter(Artist,SemiSenior)
+      resultStatus: 1
+      duration: 0.0006341
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1027
+      parentUniqueId: EditModeTest.dll/EmployeeTest/[EditModeTest][EmployeeTest.Filter][suite]
+    - id: 1022
+      uniqueId: EditModeTest.dll/EmployeeTest/Filter/[EditModeTest][EmployeeTest.Filter(Artist,Senior)]
+      name: Filter(Artist,Senior)
+      fullName: EmployeeTest.Filter(Artist,Senior)
+      resultStatus: 1
+      duration: 0.0005317
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1027
+      parentUniqueId: EditModeTest.dll/EmployeeTest/[EditModeTest][EmployeeTest.Filter][suite]
+    - id: 1023
+      uniqueId: EditModeTest.dll/EmployeeTest/Filter/[EditModeTest][EmployeeTest.Filter(Design,Junior)]
+      name: Filter(Design,Junior)
+      fullName: EmployeeTest.Filter(Design,Junior)
+      resultStatus: 1
+      duration: 0.0005305
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1027
+      parentUniqueId: EditModeTest.dll/EmployeeTest/[EditModeTest][EmployeeTest.Filter][suite]
+    - id: 1024
+      uniqueId: EditModeTest.dll/EmployeeTest/Filter/[EditModeTest][EmployeeTest.Filter(Design,Senior)]
+      name: Filter(Design,Senior)
+      fullName: EmployeeTest.Filter(Design,Senior)
+      resultStatus: 1
+      duration: 0.0005181
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1027
+      parentUniqueId: EditModeTest.dll/EmployeeTest/[EditModeTest][EmployeeTest.Filter][suite]
+    - id: 1025
+      uniqueId: EditModeTest.dll/EmployeeTest/Filter/[EditModeTest][EmployeeTest.Filter(PMs,SemiSenior)]
+      name: Filter(PMs,SemiSenior)
+      fullName: EmployeeTest.Filter(PMs,SemiSenior)
+      resultStatus: 1
+      duration: 0.0005164
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1027
+      parentUniqueId: EditModeTest.dll/EmployeeTest/[EditModeTest][EmployeeTest.Filter][suite]
+    - id: 1026
+      uniqueId: EditModeTest.dll/EmployeeTest/Filter/[EditModeTest][EmployeeTest.Filter(PMs,Senior)]
+      name: Filter(PMs,Senior)
+      fullName: EmployeeTest.Filter(PMs,Senior)
+      resultStatus: 1
+      duration: 0.0005204
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1027
+      parentUniqueId: EditModeTest.dll/EmployeeTest/[EditModeTest][EmployeeTest.Filter][suite]
+    - id: 1003
+      uniqueId: EditModeTest.dll/EmployeeTest/[EditModeTest][EmployeeTest.FilterBySector][suite]
+      name: FilterBySector
+      fullName: EmployeeTest.FilterBySector
+      resultStatus: 1
+      duration: 0.0625629
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1001
+      parentUniqueId: EditModeTest.dll/[EditModeTest][EmployeeTest][suite]
+    - id: 1002
+      uniqueId: EditModeTest.dll/EmployeeTest/FilterBySector/[EditModeTest][EmployeeTest.FilterBySector(CEO)]
+      name: FilterBySector(CEO)
+      fullName: EmployeeTest.FilterBySector(CEO)
+      resultStatus: 1
+      duration: 0.0012953
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1003
+      parentUniqueId: EditModeTest.dll/EmployeeTest/[EditModeTest][EmployeeTest.FilterBySector][suite]
+    - id: 1003
+      uniqueId: EditModeTest.dll/EmployeeTest/FilterBySector/[EditModeTest][EmployeeTest.FilterBySector(HR)]
+      name: FilterBySector(HR)
+      fullName: EmployeeTest.FilterBySector(HR)
+      resultStatus: 1
+      duration: 0.0006037
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1008
+      parentUniqueId: EditModeTest.dll/EmployeeTest/[EditModeTest][EmployeeTest.FilterBySector][suite]
+    - id: 1004
+      uniqueId: EditModeTest.dll/EmployeeTest/FilterBySector/[EditModeTest][EmployeeTest.FilterBySector(Artist)]
+      name: FilterBySector(Artist)
+      fullName: EmployeeTest.FilterBySector(Artist)
+      resultStatus: 1
+      duration: 0.0005687
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1008
+      parentUniqueId: EditModeTest.dll/EmployeeTest/[EditModeTest][EmployeeTest.FilterBySector][suite]
+    - id: 1005
+      uniqueId: EditModeTest.dll/EmployeeTest/FilterBySector/[EditModeTest][EmployeeTest.FilterBySector(Engineering)]
+      name: FilterBySector(Engineering)
+      fullName: EmployeeTest.FilterBySector(Engineering)
+      resultStatus: 1
+      duration: 0.0008689
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1008
+      parentUniqueId: EditModeTest.dll/EmployeeTest/[EditModeTest][EmployeeTest.FilterBySector][suite]
+    - id: 1006
+      uniqueId: EditModeTest.dll/EmployeeTest/FilterBySector/[EditModeTest][EmployeeTest.FilterBySector(Design)]
+      name: FilterBySector(Design)
+      fullName: EmployeeTest.FilterBySector(Design)
+      resultStatus: 1
+      duration: 0.0006663
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1008
+      parentUniqueId: EditModeTest.dll/EmployeeTest/[EditModeTest][EmployeeTest.FilterBySector][suite]
+    - id: 1007
+      uniqueId: EditModeTest.dll/EmployeeTest/FilterBySector/[EditModeTest][EmployeeTest.FilterBySector(PMs)]
+      name: FilterBySector(PMs)
+      fullName: EmployeeTest.FilterBySector(PMs)
+      resultStatus: 1
+      duration: 0.0011958
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1008
+      parentUniqueId: EditModeTest.dll/EmployeeTest/[EditModeTest][EmployeeTest.FilterBySector][suite]
+    - id: 1005
+      uniqueId: EditModeTest.dll/EmployeeTest/[EditModeTest][EmployeeTest.FilterBySeniority][suite]
+      name: FilterBySeniority
+      fullName: EmployeeTest.FilterBySeniority
+      resultStatus: 1
+      duration: 0.0122163
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1001
+      parentUniqueId: EditModeTest.dll/[EditModeTest][EmployeeTest][suite]
+    - id: 1009
+      uniqueId: EditModeTest.dll/EmployeeTest/FilterBySeniority/[EditModeTest][EmployeeTest.FilterBySeniority(null)]
+      name: FilterBySeniority(null)
+      fullName: EmployeeTest.FilterBySeniority(null)
+      resultStatus: 1
+      duration: 0.0013855
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1013
+      parentUniqueId: EditModeTest.dll/EmployeeTest/[EditModeTest][EmployeeTest.FilterBySeniority][suite]
+    - id: 1004
+      uniqueId: EditModeTest.dll/EmployeeTest/FilterBySeniority/[EditModeTest][EmployeeTest.FilterBySeniority(Junior)]
+      name: FilterBySeniority(Junior)
+      fullName: EmployeeTest.FilterBySeniority(Junior)
+      resultStatus: 1
+      duration: 0.0007737
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1005
+      parentUniqueId: EditModeTest.dll/EmployeeTest/[EditModeTest][EmployeeTest.FilterBySeniority][suite]
+    - id: 1011
+      uniqueId: EditModeTest.dll/EmployeeTest/FilterBySeniority/[EditModeTest][EmployeeTest.FilterBySeniority(SemiSenior)]
+      name: FilterBySeniority(SemiSenior)
+      fullName: EmployeeTest.FilterBySeniority(SemiSenior)
+      resultStatus: 1
+      duration: 0.0006196
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1013
+      parentUniqueId: EditModeTest.dll/EmployeeTest/[EditModeTest][EmployeeTest.FilterBySeniority][suite]
+    - id: 1012
+      uniqueId: EditModeTest.dll/EmployeeTest/FilterBySeniority/[EditModeTest][EmployeeTest.FilterBySeniority(Senior)]
+      name: FilterBySeniority(Senior)
+      fullName: EmployeeTest.FilterBySeniority(Senior)
+      resultStatus: 1
+      duration: 0.0006218
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1013
+      parentUniqueId: EditModeTest.dll/EmployeeTest/[EditModeTest][EmployeeTest.FilterBySeniority][suite]
+    - id: 1007
+      uniqueId: EditModeTest.dll/EmployeeTest/[EditModeTest][EmployeeTest.Grouping][suite]
+      name: Grouping
+      fullName: EmployeeTest.Grouping
+      resultStatus: 1
+      duration: 0.0486924
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1001
+      parentUniqueId: EditModeTest.dll/[EditModeTest][EmployeeTest][suite]
+    - id: 1006
+      uniqueId: EditModeTest.dll/EmployeeTest/Grouping/[EditModeTest][EmployeeTest.Grouping(CEO,null)]
+      name: Grouping(CEO,null)
+      fullName: EmployeeTest.Grouping(CEO,null)
+      resultStatus: 1
+      duration: 0.0193286
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1019
+      parentUniqueId: EditModeTest.dll/EmployeeTest/[EditModeTest][EmployeeTest.Grouping][suite]
+    - id: 1007
+      uniqueId: EditModeTest.dll/EmployeeTest/Grouping/[EditModeTest][EmployeeTest.Grouping(HR,Junior)]
+      name: Grouping(HR,Junior)
+      fullName: EmployeeTest.Grouping(HR,Junior)
+      resultStatus: 1
+      duration: 0.0013137
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1019
+      parentUniqueId: EditModeTest.dll/EmployeeTest/[EditModeTest][EmployeeTest.Grouping][suite]
+    - id: 1008
+      uniqueId: EditModeTest.dll/EmployeeTest/Grouping/[EditModeTest][EmployeeTest.Grouping(HR,SemiSenior)]
+      name: Grouping(HR,SemiSenior)
+      fullName: EmployeeTest.Grouping(HR,SemiSenior)
+      resultStatus: 1
+      duration: 0.0011949
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1019
+      parentUniqueId: EditModeTest.dll/EmployeeTest/[EditModeTest][EmployeeTest.Grouping][suite]
+    - id: 1009
+      uniqueId: EditModeTest.dll/EmployeeTest/Grouping/[EditModeTest][EmployeeTest.Grouping(HR,Senior)]
+      name: Grouping(HR,Senior)
+      fullName: EmployeeTest.Grouping(HR,Senior)
+      resultStatus: 1
+      duration: 0.0012379
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1019
+      parentUniqueId: EditModeTest.dll/EmployeeTest/[EditModeTest][EmployeeTest.Grouping][suite]
+    - id: 1010
+      uniqueId: EditModeTest.dll/EmployeeTest/Grouping/[EditModeTest][EmployeeTest.Grouping(Engineering,Junior)]
+      name: Grouping(Engineering,Junior)
+      fullName: EmployeeTest.Grouping(Engineering,Junior)
+      resultStatus: 1
+      duration: 0.0011607
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1019
+      parentUniqueId: EditModeTest.dll/EmployeeTest/[EditModeTest][EmployeeTest.Grouping][suite]
+    - id: 1011
+      uniqueId: EditModeTest.dll/EmployeeTest/Grouping/[EditModeTest][EmployeeTest.Grouping(Engineering,SemiSenior)]
+      name: Grouping(Engineering,SemiSenior)
+      fullName: EmployeeTest.Grouping(Engineering,SemiSenior)
+      resultStatus: 1
+      duration: 0.001158
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1019
+      parentUniqueId: EditModeTest.dll/EmployeeTest/[EditModeTest][EmployeeTest.Grouping][suite]
+    - id: 1012
+      uniqueId: EditModeTest.dll/EmployeeTest/Grouping/[EditModeTest][EmployeeTest.Grouping(Engineering,Senior)]
+      name: Grouping(Engineering,Senior)
+      fullName: EmployeeTest.Grouping(Engineering,Senior)
+      resultStatus: 1
+      duration: 0.0010949
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1019
+      parentUniqueId: EditModeTest.dll/EmployeeTest/[EditModeTest][EmployeeTest.Grouping][suite]
+    - id: 1008
+      uniqueId: EditModeTest.dll/EmployeeTest/Grouping/[EditModeTest][EmployeeTest.Grouping(Artist,SemiSenior)]
+      name: Grouping(Artist,SemiSenior)
+      fullName: EmployeeTest.Grouping(Artist,SemiSenior)
+      resultStatus: 1
+      duration: 0.0011756
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1009
+      parentUniqueId: EditModeTest.dll/EmployeeTest/[EditModeTest][EmployeeTest.Grouping][suite]
+    - id: 1009
+      uniqueId: EditModeTest.dll/EmployeeTest/Grouping/[EditModeTest][EmployeeTest.Grouping(Artist,Senior)]
+      name: Grouping(Artist,Senior)
+      fullName: EmployeeTest.Grouping(Artist,Senior)
+      resultStatus: 1
+      duration: 0.0012991
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1010
+      parentUniqueId: EditModeTest.dll/EmployeeTest/[EditModeTest][EmployeeTest.Grouping][suite]
+    - id: 1015
+      uniqueId: EditModeTest.dll/EmployeeTest/Grouping/[EditModeTest][EmployeeTest.Grouping(Design,Junior)]
+      name: Grouping(Design,Junior)
+      fullName: EmployeeTest.Grouping(Design,Junior)
+      resultStatus: 1
+      duration: 0.001302
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1019
+      parentUniqueId: EditModeTest.dll/EmployeeTest/[EditModeTest][EmployeeTest.Grouping][suite]
+    - id: 1016
+      uniqueId: EditModeTest.dll/EmployeeTest/Grouping/[EditModeTest][EmployeeTest.Grouping(Design,Senior)]
+      name: Grouping(Design,Senior)
+      fullName: EmployeeTest.Grouping(Design,Senior)
+      resultStatus: 1
+      duration: 0.0011475
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1019
+      parentUniqueId: EditModeTest.dll/EmployeeTest/[EditModeTest][EmployeeTest.Grouping][suite]
+    - id: 1017
+      uniqueId: EditModeTest.dll/EmployeeTest/Grouping/[EditModeTest][EmployeeTest.Grouping(PMs,SemiSenior)]
+      name: Grouping(PMs,SemiSenior)
+      fullName: EmployeeTest.Grouping(PMs,SemiSenior)
+      resultStatus: 1
+      duration: 0.0012388
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1019
+      parentUniqueId: EditModeTest.dll/EmployeeTest/[EditModeTest][EmployeeTest.Grouping][suite]
+    - id: 1018
+      uniqueId: EditModeTest.dll/EmployeeTest/Grouping/[EditModeTest][EmployeeTest.Grouping(PMs,Senior)]
+      name: Grouping(PMs,Senior)
+      fullName: EmployeeTest.Grouping(PMs,Senior)
+      resultStatus: 1
+      duration: 0.0011637
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1019
+      parentUniqueId: EditModeTest.dll/EmployeeTest/[EditModeTest][EmployeeTest.Grouping][suite]
+    - id: 1042
+      uniqueId: EditModeTest.dll/[EditModeTest][SalaryTest][suite]
+      name: SalaryTest
+      fullName: SalaryTest
+      resultStatus: 1
+      duration: 0.0409639
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1045
+      parentUniqueId: '[EditModeTest][/Volumes/Apple HDD/Projects/Github/JamCityTechTest/Library/ScriptAssemblies/EditModeTest.dll][suite]'
+    - id: 1056
+      uniqueId: EditModeTest.dll/SalaryTest/[EditModeTest][SalaryTest.CalculateSalary][suite]
+      name: CalculateSalary
+      fullName: SalaryTest.CalculateSalary
+      resultStatus: 1
+      duration: 0.0252022
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1042
+      parentUniqueId: EditModeTest.dll/[EditModeTest][SalaryTest][suite]
+    - id: 1043
+      uniqueId: EditModeTest.dll/SalaryTest/CalculateSalary/[EditModeTest][SalaryTest.CalculateSalary(CEO,null,20000,100)]
+      name: CalculateSalary(CEO,null,20000,100)
+      fullName: SalaryTest.CalculateSalary(CEO,null,20000,100)
+      resultStatus: 1
+      duration: 0.0068312
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1056
+      parentUniqueId: EditModeTest.dll/SalaryTest/[EditModeTest][SalaryTest.CalculateSalary][suite]
+    - id: 1044
+      uniqueId: EditModeTest.dll/SalaryTest/CalculateSalary/[EditModeTest][SalaryTest.CalculateSalary(HR,Junior,500,0.5f)]
+      name: CalculateSalary(HR,Junior,500,0.5f)
+      fullName: SalaryTest.CalculateSalary(HR,Junior,500,0.5f)
+      resultStatus: 1
+      duration: 0.0026073
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1056
+      parentUniqueId: EditModeTest.dll/SalaryTest/[EditModeTest][SalaryTest.CalculateSalary][suite]
+    - id: 1045
+      uniqueId: EditModeTest.dll/SalaryTest/CalculateSalary/[EditModeTest][SalaryTest.CalculateSalary(HR,SemiSenior,1000,2)]
+      name: CalculateSalary(HR,SemiSenior,1000,2)
+      fullName: SalaryTest.CalculateSalary(HR,SemiSenior,1000,2)
+      resultStatus: 1
+      duration: 0.0004291
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1056
+      parentUniqueId: EditModeTest.dll/SalaryTest/[EditModeTest][SalaryTest.CalculateSalary][suite]
+    - id: 1046
+      uniqueId: EditModeTest.dll/SalaryTest/CalculateSalary/[EditModeTest][SalaryTest.CalculateSalary(HR,Senior,1500,5)]
+      name: CalculateSalary(HR,Senior,1500,5)
+      fullName: SalaryTest.CalculateSalary(HR,Senior,1500,5)
+      resultStatus: 1
+      duration: 0.0004776
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1056
+      parentUniqueId: EditModeTest.dll/SalaryTest/[EditModeTest][SalaryTest.CalculateSalary][suite]
+    - id: 1047
+      uniqueId: EditModeTest.dll/SalaryTest/CalculateSalary/[EditModeTest][SalaryTest.CalculateSalary(Engineering,Junior,1500,5)]
+      name: CalculateSalary(Engineering,Junior,1500,5)
+      fullName: SalaryTest.CalculateSalary(Engineering,Junior,1500,5)
+      resultStatus: 1
+      duration: 0.0004798
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1056
+      parentUniqueId: EditModeTest.dll/SalaryTest/[EditModeTest][SalaryTest.CalculateSalary][suite]
+    - id: 1048
+      uniqueId: EditModeTest.dll/SalaryTest/CalculateSalary/[EditModeTest][SalaryTest.CalculateSalary(Engineering,SemiSenior,3000,7)]
+      name: CalculateSalary(Engineering,SemiSenior,3000,7)
+      fullName: SalaryTest.CalculateSalary(Engineering,SemiSenior,3000,7)
+      resultStatus: 1
+      duration: 0.0005639
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1056
+      parentUniqueId: EditModeTest.dll/SalaryTest/[EditModeTest][SalaryTest.CalculateSalary][suite]
+    - id: 1049
+      uniqueId: EditModeTest.dll/SalaryTest/CalculateSalary/[EditModeTest][SalaryTest.CalculateSalary(Engineering,Senior,5000,10)]
+      name: CalculateSalary(Engineering,Senior,5000,10)
+      fullName: SalaryTest.CalculateSalary(Engineering,Senior,5000,10)
+      resultStatus: 1
+      duration: 0.0004124
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1056
+      parentUniqueId: EditModeTest.dll/SalaryTest/[EditModeTest][SalaryTest.CalculateSalary][suite]
+    - id: 1050
+      uniqueId: EditModeTest.dll/SalaryTest/CalculateSalary/[EditModeTest][SalaryTest.CalculateSalary(Artist,SemiSenior,1200,2.5f)]
+      name: CalculateSalary(Artist,SemiSenior,1200,2.5f)
+      fullName: SalaryTest.CalculateSalary(Artist,SemiSenior,1200,2.5f)
+      resultStatus: 1
+      duration: 0.0003567
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1056
+      parentUniqueId: EditModeTest.dll/SalaryTest/[EditModeTest][SalaryTest.CalculateSalary][suite]
+    - id: 1051
+      uniqueId: EditModeTest.dll/SalaryTest/CalculateSalary/[EditModeTest][SalaryTest.CalculateSalary(Artist,Senior,2000,5)]
+      name: CalculateSalary(Artist,Senior,2000,5)
+      fullName: SalaryTest.CalculateSalary(Artist,Senior,2000,5)
+      resultStatus: 1
+      duration: 0.0003484
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1056
+      parentUniqueId: EditModeTest.dll/SalaryTest/[EditModeTest][SalaryTest.CalculateSalary][suite]
+    - id: 1052
+      uniqueId: EditModeTest.dll/SalaryTest/CalculateSalary/[EditModeTest][SalaryTest.CalculateSalary(Design,Junior,800,4)]
+      name: CalculateSalary(Design,Junior,800,4)
+      fullName: SalaryTest.CalculateSalary(Design,Junior,800,4)
+      resultStatus: 1
+      duration: 0.0003271
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1056
+      parentUniqueId: EditModeTest.dll/SalaryTest/[EditModeTest][SalaryTest.CalculateSalary][suite]
+    - id: 1053
+      uniqueId: EditModeTest.dll/SalaryTest/CalculateSalary/[EditModeTest][SalaryTest.CalculateSalary(Design,Senior,2000,7)]
+      name: CalculateSalary(Design,Senior,2000,7)
+      fullName: SalaryTest.CalculateSalary(Design,Senior,2000,7)
+      resultStatus: 1
+      duration: 0.0003438
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1056
+      parentUniqueId: EditModeTest.dll/SalaryTest/[EditModeTest][SalaryTest.CalculateSalary][suite]
+    - id: 1054
+      uniqueId: EditModeTest.dll/SalaryTest/CalculateSalary/[EditModeTest][SalaryTest.CalculateSalary(PMs,SemiSenior,2400,5)]
+      name: CalculateSalary(PMs,SemiSenior,2400,5)
+      fullName: SalaryTest.CalculateSalary(PMs,SemiSenior,2400,5)
+      resultStatus: 1
+      duration: 0.0003319
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1056
+      parentUniqueId: EditModeTest.dll/SalaryTest/[EditModeTest][SalaryTest.CalculateSalary][suite]
+    - id: 1055
+      uniqueId: EditModeTest.dll/SalaryTest/CalculateSalary/[EditModeTest][SalaryTest.CalculateSalary(PMs,Senior,4000,10)]
+      name: CalculateSalary(PMs,Senior,4000,10)
+      fullName: SalaryTest.CalculateSalary(PMs,Senior,4000,10)
+      resultStatus: 1
+      duration: 0.0004344
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1056
+      parentUniqueId: EditModeTest.dll/SalaryTest/[EditModeTest][SalaryTest.CalculateSalary][suite]
+    m_ResultText: CalculateSalary(PMs,Senior,4000,10) (0.000s)
+    m_ResultStacktrace: 
+    m_TestListState:
+      scrollPos: {x: 0, y: 70}
+      m_SelectedIDs: bd9ec4a4
+      m_LastClickedID: -1530618179
+      m_ExpandedIDs: 6693e3872743adac22fba4d86f727d02e106ab0be7b3862f796bfb63ffffff7f
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 0}
+      m_SearchString: 
+    m_TestRunnerUIFilter:
+      PassedHidden: 0
+      FailedHidden: 0
+      NotRunHidden: 0
+      m_SearchString: 
+      selectedCategoryMask: 0
+      availableCategories:
+      - Uncategorized
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -296,10 +1390,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 74
-    y: 459
-    width: 920
-    height: 243
+    x: 211
+    y: 505
+    width: 763
+    height: 197
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -317,22 +1411,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Tests/EditModeTest
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Tests/EditModeTest
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: /Volumes/Apple HDD/Projects/Bitbucket/ScavengerPup/JamCityTest
+  m_LastProjectPath: /Volumes/Apple HDD/Projects/Github/JamCityTechTest
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: a6720000
-    m_LastClickedID: 29350
-    m_ExpandedIDs: 00000000a672000000ca9a3b
+    scrollPos: {x: 0, y: 99}
+    m_SelectedIDs: 9e6c0000
+    m_LastClickedID: 27806
+    m_ExpandedIDs: 000000001c6a00009c6b0000a66b000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -360,7 +1454,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 
+    m_ExpandedIDs: 000000001c6a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -387,7 +1481,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -436,9 +1530,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 995
+    x: 976
     y: 75
-    width: 284
+    width: 303
     height: 627
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -477,10 +1571,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 74
+    x: 0
     y: 75
-    width: 227
-    height: 363
+    width: 210
+    height: 627
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -490,7 +1584,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 18fbffff
+      m_ExpandedIDs: ea70fffff071ffffce72ffff1473fffff273ffff3874ffff7274ffffb874fffff274fffff875ffffb677ffffc478ffffa279ffffa47affff2484ffff8e84ffffbc85ffff0086ffffa287ffff7c88ffff6289ffff088afffff28affff388bffff728bffffb88bfffff28bffff388cffff0a8dffffa88dffff908fffff3690ffffaa91ffff4892ffff3693ffffd093ffff5095ffffce95ffffb496ffff3a97ffffd098ffff2299fffffc99ffff5e9affff489bffff969bffff8e9dffffdc9dffffae9efffffc9effffce9fffff1ca0ffffeea0ffff3ca1ffff12a2ffff60a2ffff2ea3ffff7ca3ffff4ea4ffff9ca4ffff72a5ffffc0a5ffff92a6ffffe0a6ffffc6a7ffff14a8ffffe6a8ffff34a9ffff12aaffff60aaffff9aaaffffe8aaffffbaabffff00acffff00f9ffff60f9ffff2cfbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -534,9 +1628,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 302
+    x: 211
     y: 75
-    width: 691
+    width: 763
     height: 363
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -794,7 +1888,7 @@ MonoBehaviour:
       m_Fade:
         m_Target: 0
         speed: 2
-        m_Value: 1
+        m_Value: 0
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
       m_Size: {x: 1, y: 1}
@@ -892,8 +1986,8 @@ MonoBehaviour:
     vZoomLockedByDefault: 0
     m_HBaseRangeMin: -766
     m_HBaseRangeMax: 766
-    m_VBaseRangeMin: -395
-    m_VBaseRangeMax: 395
+    m_VBaseRangeMin: -384.5
+    m_VBaseRangeMax: 384.5
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -910,11 +2004,11 @@ MonoBehaviour:
     m_DrawArea:
       serializedVersion: 2
       x: 0
-      y: 0
+      y: 21
       width: 1532
-      height: 790
+      height: 769
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 766, y: 395}
+    m_Translation: {x: 766, y: 384.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
@@ -922,9 +2016,9 @@ MonoBehaviour:
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
       x: -766
-      y: -395
+      y: -384.5
       width: 1532
-      height: 790
+      height: 769
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 1532, y: 790}
@@ -953,10 +2047,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 2249
-    y: 726.5
-    width: 920
-    height: 250
+    x: 211
+    y: 459
+    width: 763
+    height: 243
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
