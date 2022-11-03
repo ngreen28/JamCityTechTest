@@ -1,9 +1,9 @@
 using System;
 using System.Collections.Generic;
-using JCityTechTest.Core;
-using JCityTechTest.Enum;
+using Core;
+using Enum;
 
-namespace JCityTechTest.Interface
+namespace Interface
 {
     public interface IEmployeeLogic
     {

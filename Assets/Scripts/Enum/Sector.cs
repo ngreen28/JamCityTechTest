@@ -1,4 +1,4 @@
-namespace JCityTechTest.Enum
+namespace Enum
 {
     public enum Sector
     {

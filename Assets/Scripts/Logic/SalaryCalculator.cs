@@ -1,8 +1,6 @@
-using System.Collections.Generic;
-using JCityTechTest.Core;
-using JCityTechTest.Interface;
+using Interface;
 
-namespace JCityTechTest.Logic
+namespace Logic
 {
     public class SalaryCalculator
     {

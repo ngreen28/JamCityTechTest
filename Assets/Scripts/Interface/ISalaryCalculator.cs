@@ -1,7 +1,4 @@
-using System.Collections.Generic;
-using JCityTechTest.Core;
-
-namespace JCityTechTest.Interface
+namespace Interface
 {
     public interface ISalaryCalculator
     {
